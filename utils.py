@@ -15,6 +15,7 @@ from typing import List
 import tiktoken
 import yaml
 import re
+import shutil
 from constants import PROMPT_RULES_CUCUMBER,PROMPT_RULES_POM,PROMPT_RULES_TEST_CODE, PROMPT_RULES_CLASS_CREATE
 
 model_id = "qwen.qwen3-coder-480b-a35b-v1:0"
